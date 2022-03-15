@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * main - putchar
+ * main - prints _putchar
  * Description - prints _putchar
  * Return: 0 (Success)
  */
 
 int main(void)
 {
-	char text[8] = "_putchar";
+	char text[9] = "_putchar";
 	int a = 0;
 
-	for (a = 0; a < 9; a++)
+	for (a = 0; a < 7; a++)
 	{
 		_putchar(text[a]);
 	}
