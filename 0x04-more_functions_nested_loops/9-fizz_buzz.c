@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - fizz buzz
+ * main - Entry point
  *
  * Return: Always 0
  */
