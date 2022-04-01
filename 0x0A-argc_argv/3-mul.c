@@ -10,9 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int mul = 0;
-
-	if (argc < 2 || argc > 3)
+	if (argc <= 2 || argc > 3)
 	{
 		printf("Error\n");
 
@@ -20,8 +18,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		mul = atoi(argv[1]) * atoi(argv[2]);
-		printf("%d\n", mul);
+	       printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 
 		return (0);
 	}
