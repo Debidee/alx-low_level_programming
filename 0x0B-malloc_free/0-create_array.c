@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _create_array - crewte array
+ * create_array - creates arrays of char
  * @size: size of arewy
  * @c : input char
  *
